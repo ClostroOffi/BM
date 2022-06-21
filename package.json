@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "productName": "BlockMon Launcher",
   "description": "Une aventure sans fin.",
-  "author": "BlockMon (https://dsc.gg/blockmon/)",
+  "author": "BlockTeam (https://dsc.gg/blockmon/)",
   "license": "UNLICENSED",
   "homepage": "https://dsc.gg/blockmon",
   "bugs": {
-    "url": "https://github.com/Launcher/Topazia/issues"
+    "url": "https://github.com/ClostroOffi/BM/issues"
   },
   "private": true,
   "main": "index.js",
@@ -57,6 +57,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Topazia/Launcher.git"
+    "url": "git+https://github.com/ClostroOffi/BM.git"
   }
 }
