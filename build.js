@@ -16,7 +16,7 @@ function getCurrentPlatform(){
 }
 
 builder.build({
-    targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
+    targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform())?.createTarget(),
     config: {
         appId: 'BlockMon Launcher',
         productName: 'BlockMon Launcher',
@@ -35,7 +35,6 @@ builder.build({
                 }
             ]
         },
-        
         
         nsis: {
             oneClick: false,
@@ -71,4 +70,3 @@ builder.build({
     console.error('Error during build!', err)
 })
 
-console.log(builder.build && builder.build?.linux)
