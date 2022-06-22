@@ -48,12 +48,12 @@ builder.build({
             category: 'public.app-category.games'
         },
         linux: {
-            target: 'AppImage',
-            maintainer: 'BlockMon Launcher',
-            vendor: 'BlockTeam',
-            synopsis: 'Le launcher officiel de BlockMon',
-            description: "Rejoignez l'aventure !",
-            category: 'Game'
+  target: 'AppImage',
+  maintainer: 'BlockTeam',
+  vendor: 'BlockTeam',
+  synopsis: 'BlockMon Launcher',
+  description: 'Rejoignez-nous sur BlockMon !',
+  category: 'Game'
         },
         compression: 'maximum',
         files: [
