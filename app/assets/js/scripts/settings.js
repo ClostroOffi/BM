@@ -1070,7 +1070,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/Topazia/Launcher/releases.atom',
+        url: 'https://github.com/ClostroOffi/BM/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
