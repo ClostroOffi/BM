@@ -50,14 +50,14 @@ builder.build({
         linux: {
             target: 'AppImage',
             maintainer: 'BlockMon Launcher',
-            vendor: 'BlockMon',
+            vendor: 'BlockTeam',
             synopsis: 'Le launcher officiel de BlockMon',
             description: "Rejoignez l'aventure !",
             category: 'Game'
         },
         compression: 'maximum',
         files: [
-            '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.travis.yml,.nvmrc,.eslintrc.json,build.js}'
+            '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
         ],
         extraResources: [
             'libraries',
